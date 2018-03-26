@@ -5,8 +5,8 @@ const markerSchema = new Schema({
   title: String,
   description: String,
   coordinate: {
-    lat: String,
-    lng: String,
+    latitude: Number,
+    longitude: Number,
   },
   updatedAt: Date,
 });
